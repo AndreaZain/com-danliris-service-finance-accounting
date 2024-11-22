@@ -368,6 +368,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.GarmentInvoi
 				MonitoringDispositionPayment payment = new MonitoringDispositionPayment
 				{
 					InvoiceNo = item.InvoiceNo,
+					BankCashNo = item.BankCashNo,
 					InvoiceDate = item.InvoiceDate,
 					DispositionNo = item.DispositionNo,
 					DispositionDate = item.DispositionDate,
